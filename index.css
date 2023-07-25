@@ -1,0 +1,123 @@
+body{
+    background-color:coral;
+    
+    color: white;
+    border-color: red;
+    border-style: solid;
+}
+.elements{
+    margin-left: 20%;
+    margin-top: 10%;
+    background-size: 50%;
+    background-repeat: no-repeat;
+    width: 90%;
+    
+    padding-bottom: 50%;
+    padding-right: 50%;
+    
+    background-image: url('hole.png');
+}
+
+img{
+    size: 5%;
+   position: absolute;
+    transform: scale(15%,15%);
+    
+    
+}
+.box{
+    margin-left: 30%;
+}
+.levels{
+    margin-left: 30%;
+}
+
+@media screen and (max-width:600px) {
+    .elements{
+        margin-left: 20%;
+        margin-top: 10%;
+        background-size: 50%;
+        background-repeat: no-repeat;
+        width: 90%;
+        
+        padding-bottom: 50%;
+        padding-right: 50%;
+        
+        background-image: url('hole.png');
+    }
+    
+    img{
+        size: 5%;
+       
+        transform: scale(15%,15%);
+        
+        
+    }
+    #Start,#Stop,#Score{
+        padding:20%;
+    }
+    .box{
+        margin-left: 30%;
+    }
+    .levels{
+        margin-left: 20%;
+    }
+}
+@media screen and (max-width:800px) {
+    .elements{
+        margin-left: 20%;
+        margin-top: 10%;
+        background-size: 50%;
+        background-repeat: no-repeat;
+        width: 90%;
+        
+        padding-bottom: 50%;
+        padding-right: 50%;
+        
+        background-image: url('hole.png');
+    }
+    
+    img{
+        size: 5%;
+       
+        transform: scale(15%,15%);
+        
+        
+    }
+    .box{
+        margin-left: 30%;
+    }
+    .levels{
+        margin-left: 30%;
+    }
+}
+/* <!-- Add the following CSS styles to index.css --> */
+
+.box,.btn {
+  font-size: 32px; /* Increase font size for the score box */
+  padding: 15px; /* Add padding to the score box */
+}
+.box{
+    max-height: 65px;
+}
+
+@media screen and (max-width: 600px) {
+  /* Adjust target position for media query 1 */
+  .elements {
+    background-image: url('hole.png');
+  }
+}
+
+@media screen and (min-width: 601px) and (max-width: 800px) {
+  /* Adjust target position for media query 2 */
+  .elements {
+    background-image: url('hole.png');
+  }
+}
+
+@media screen and (min-width: 801px) {
+  /* Adjust target position for media query 3 */
+  .elements {
+    background-image: url('hole.png');
+  }
+}
